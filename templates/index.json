@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -29,33 +38,32 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
+        "collection": "all",
+        "products_to_show": 14,
         "title": "Featured products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -63,13 +71,37 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "guarantee_section_NnJ6yp": {
+      "type": "guarantee-section",
+      "name": "Guarantee section",
+      "settings": {
+        "image": "shopify://shop_images/1000055166_1.png",
+        "image_alt": "Customer with glowing skin",
+        "image_width": 42,
+        "image_radius": 16,
+        "image_position": "left",
+        "heading": "60 Day Guarantee",
+        "text": "<p>Glow or Get Your Money Back. We have great confidence you will love your Quia products! If you don't see results, you may qualify for a refund.</p><p>Everyone's growth journey is different however, we're so confident in our enhancing serums that we're offering a 60-day risk-free trial!</p>",
+        "background_color": "#F8EDED",
+        "heading_color": "#A65E5E",
+        "text_color": "#333333",
+        "divider_color": "#E0D0D0",
+        "container_radius": 24,
+        "inner_padding": 40,
+        "content_gap": 40,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "guarantee_section_NnJ6yp"
   ]
 }
