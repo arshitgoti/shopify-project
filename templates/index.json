@@ -82,8 +82,8 @@
       "settings": {
         "image": "shopify://shop_images/1000055166_1.png",
         "image_alt": "Customer with glowing skin",
-        "image_width": 42,
-        "image_radius": 16,
+        "image_width": 60,
+        "image_radius": 40,
         "image_position": "left",
         "heading": "60 Day Guarantee",
         "text": "<p>Glow or Get Your Money Back. We have great confidence you will love your Quia products! If you don't see results, you may qualify for a refund.</p><p>Everyone's growth journey is different however, we're so confident in our enhancing serums that we're offering a 60-day risk-free trial!</p>",
