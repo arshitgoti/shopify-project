@@ -67,8 +67,8 @@
         "container_radius": 4,
         "inner_padding": 20,
         "content_gap": 28,
-        "padding_top": 68,
-        "padding_bottom": 0
+        "margin_top": 60,
+        "margin_bottom": 60
       }
     },
     "featured_collection": {
