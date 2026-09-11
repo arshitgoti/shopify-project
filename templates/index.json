@@ -48,6 +48,28 @@
         "show_text_below": false
       }
     },
+    "guarantee_section_NnJ6yp": {
+      "type": "guarantee-section",
+      "name": "Guarantee section",
+      "settings": {
+        "image": "shopify://shop_images/1000055166_1.png",
+        "image_alt": "Customer with glowing skin",
+        "image_width": 60,
+        "image_radius": 40,
+        "image_position": "left",
+        "heading": "60 Day Guarantee",
+        "text": "<p>Glow or Get Your Money Back. We have great confidence you will love your Quia products! If you don't see results, you may qualify for a refund.</p><p>Everyone's growth journey is different however, we're so confident in our enhancing serums that we're offering a 60-day risk-free trial!</p>",
+        "background_color": "#F8EDED",
+        "heading_color": "#A65E5E",
+        "text_color": "#333333",
+        "divider_color": "#E0D0D0",
+        "container_radius": 24,
+        "inner_padding": 40,
+        "content_gap": 40,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -75,33 +97,11 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "guarantee_section_NnJ6yp": {
-      "type": "guarantee-section",
-      "name": "Guarantee section",
-      "settings": {
-        "image": "shopify://shop_images/1000055166_1.png",
-        "image_alt": "Customer with glowing skin",
-        "image_width": 60,
-        "image_radius": 40,
-        "image_position": "left",
-        "heading": "60 Day Guarantee",
-        "text": "<p>Glow or Get Your Money Back. We have great confidence you will love your Quia products! If you don't see results, you may qualify for a refund.</p><p>Everyone's growth journey is different however, we're so confident in our enhancing serums that we're offering a 60-day risk-free trial!</p>",
-        "background_color": "#F8EDED",
-        "heading_color": "#A65E5E",
-        "text_color": "#333333",
-        "divider_color": "#E0D0D0",
-        "container_radius": 24,
-        "inner_padding": 40,
-        "content_gap": 40,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
-    "guarantee_section_NnJ6yp"
+    "guarantee_section_NnJ6yp",
+    "featured_collection"
   ]
 }
