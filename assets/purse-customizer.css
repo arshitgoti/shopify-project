@@ -1,0 +1,78 @@
+.purse-customizer{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+}
+.designer-canvas{
+    max-width:48rem;
+}
+.designer-stage {
+  position: relative;
+  width: 100%;
+  max-width: 60rem;
+}
+
+#design-layer {
+  position: absolute;
+  inset: 0;
+}
+
+.design-element {
+  position: absolute;
+  cursor: move;
+}
+
+.text-element {
+  position: absolute;
+  cursor: move;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.motif-library {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.motif-item {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.motif-item:hover {
+  border-color: #000;
+}
+
+.border-input-pc{
+    outline:2px solid black;
+}
+
+.border-input-pc:focus{
+    outline:none;
+}
+
+.custom-canvas {
+  position: relative;
+  overflow: hidden;
+}
+
+#design-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none; /* important */
+}
+
+.motif-dropped {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  cursor: grab;
+  z-index: 20;
+  pointer-events: auto;
+}

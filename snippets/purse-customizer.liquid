@@ -1,0 +1,64 @@
+{{ 'purse-customizer.css' | asset_url | stylesheet_tag }}
+
+<div class="purse-customizer">
+       {% comment %} <h1>motif images here</h1> {% endcomment %}
+
+   <div id="designer-canvas">
+
+    <h3>add accesories</h3>
+
+        <div class="motif-library">
+
+        {% assign motifs = product.metafields.custom.motifs.value %}
+
+        {% assign m1 = motifs.m1_motif_test %}
+        {% assign m2 = motifs.m2_motif_test %}
+        {% assign m3 = motifs.m3_motif_test %}
+        {% assign m4 = motifs.m4_motif_test %}
+
+        {% if m1 != blank %}
+            <img class="motif-item" src="{{ m1 | image_url: width: 200 }}" width="" height="">
+        {% endif %}
+
+        {% if m2 != blank %}
+            <img class="motif-item" src="{{ m2 | image_url: width: 200 }}" width="" height="">
+        {% endif %}
+
+        {% if m3 != blank %}
+            <img class="motif-item" src="{{ m3 | image_url: width: 200 }}" width="" height="">
+        {% endif %}
+
+        {% if m4 != blank %}
+            <img class="motif-item" src="{{ m4 | image_url: width: 200 }}" width="" height="">
+        {% endif %}
+
+        </div>
+
+    <div id="design-layer"></div>
+
+    </div> 
+
+    <div class="motif-library">
+        {% for motif in product.metafields.custom.motif_images.value %}
+        <img
+            class="motif-item"
+            src="{{ motif | image_url: width: 150 }}"
+            data-full="{{ motif | image_url }}"
+            height=""
+            width=""
+        >
+        {% endfor %}
+    </div> 
+
+  <div class="text-tools">
+
+    <input
+      type="text"
+      class="field__input border-input-pc"
+      id="custom-text"
+      placeholder="Enter text"
+    >
+
+  </div>
+
+</div>
